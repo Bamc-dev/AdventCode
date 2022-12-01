@@ -34,6 +34,12 @@ for (int i = 0; i < inputDayOneList.Count-1; i++)
 
 List<Elfes> SortedList = elfes.OrderByDescending(elfe => elfe.RecupererTotalCalories()).ToList();
 
-Console.WriteLine(SortedList[0].RecupererTotalCalories());
+int topTree = 0;
 
+Console.WriteLine("First part of Puzzle : "+SortedList[0].RecupererTotalCalories());
+for (int i = 0; i != 3; i++)
+{
+    topTree += SortedList[i].RecupererTotalCalories();
+}
+Console.WriteLine("Second part of Puzzle : "+topTree);
 
