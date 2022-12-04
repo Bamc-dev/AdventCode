@@ -14,7 +14,7 @@ namespace AdventCode
 
         public static void ResultOfTheDays()
         {
-            DayInitialize.InitializeADay(1);
+            DayInitialize.InitializeADay(2);
             List<string> inputs = inputOfTheDays.ReturnInput();
             result(inputs);
         }
