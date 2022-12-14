@@ -9,7 +9,7 @@ namespace AdventCode.Days
 {
     internal class DayThree
     {
-        static private TxtReader inputOfTheDays = new("D:\\C#\\AdventCode\\AdventCode\\Inputs\\InputDay3.txt");
+        static private TxtReader inputOfTheDays = new("C:\\Users\\Admin Stagiaire\\Desktop\\AdventCode\\AdventCode\\Inputs\\InputDay3.txt");
         public static void ResultOfTheDays()
         {
             DayInitialize.InitializeADay(3);

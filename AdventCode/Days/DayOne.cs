@@ -10,7 +10,7 @@ namespace AdventCode
 {
     internal class DayOne 
     {
-        static private TxtReader inputOfTheDays = new("D:\\C#\\AdventCode\\AdventCode\\Inputs\\InputDay1.txt");
+        static private TxtReader inputOfTheDays = new("C:\\Users\\Admin Stagiaire\\Desktop\\AdventCode\\AdventCode\\Inputs\\InputDay1.txt");
 
         static private List<Elfes> elfes = new List<Elfes>();
 

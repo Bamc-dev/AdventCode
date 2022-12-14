@@ -6,6 +6,7 @@ using AdventCode.Days;
 DayOne.ResultOfTheDays();
 DayTwo.ResultOfTheDays();
 DayThree.ResultOfTheDays();
+DayFour.ResultOfTheDays();
 
 
 
